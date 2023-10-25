@@ -9,7 +9,7 @@ import {Link} from 'react-scroll'
             <div className='flex flex-col justify-center h-full'>
                 <h2 className='text-4xl sm:text-7xl font-bold text-white '>I'm a Front End Developer</h2>
                 <p className='text-gray-500 py-4 max-w-md'>
-                Embracing a dual passion for technology and civil services, I am driven by the desire to blend innovation with public service.By integrating technology into public service, I aim to contribute to efficient governance, innovative solutions for social issues. This unique synergy fuels my ambition, guiding me towards a future where I can bridge the gap between technological advancements and societal welfare, embodying the spirit of a technocrat dedicated to the betterment of society through civil services.
+                Embracing a dual passion for technology and civil services, I am driven by the desire to blend innovation with public service.By integrating technology into public service, I aim to contribute to efficient governance, innovative solutions for social issues.This unique synergy fuels my ambition, guiding me towards a future where I can bridge the gap between technological advancements and societal welfare, embodying the spirit of a technocrat dedicated to the betterment of society through civil services.
                 
                 </p>
 <div>
@@ -23,7 +23,7 @@ import {Link} from 'react-scroll'
 
             </div>
             <div>
-                <img src={HeroImage} alt="my profile"  className='rounded-2xl mx-auto w-2/3 md:w-full '/>
+                <img src={HeroImage} alt="my profile"  className='rounded-2xl mx-auto w-2/3 h-21 md:w-full h-59'/>
             </div>
 
         </div>

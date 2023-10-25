@@ -78,7 +78,7 @@ const techs=[
 ];
 
   return (
-    <div name='experience' className='bg-gradient-to-b  from-gray-800 to-black w-full h-screen'>
+    <div name='experience' className='bg-gradient-to-b  from-black to-gray-800 w-full '>
        <div className='max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white '>
              <div>
                  <p className='text-4xl font-bold border-b-4 border-gray-500 p-2 inline'>Experience</p>
@@ -91,9 +91,9 @@ const techs=[
 {
     techs.map(({id,src,title,style})=>(
 
-<div  key={id}className={`shadow-md hover:scale-110 duration-500 py-2 rounded-lg ${style}`}>
+<div  key={id}className={`shadow-md hover:scale-110 duration-500 py-2 rounded-lg h-28 ${style}`}>
                     <img src={src} alt="" className='w-20 mx-auto' />
-                    <p className='mt-4'>{title}</p>
+                    <p className='mt-0'>{title}</p>
                 </div>
 
     ))
