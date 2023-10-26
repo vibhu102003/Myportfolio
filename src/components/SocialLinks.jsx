@@ -45,7 +45,7 @@ const links= [
             Resume  <BsFillPersonLinesFill size={30}/>
             </>
         ),
-        href:"/fakeresume.pdf",
+        href:"/myresume.pdf",
         style:'rounded-br-md',
         download:true,
 
